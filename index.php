@@ -5,21 +5,20 @@
     </head>
     <body>
         <?php include('header.php'); ?>
-        <header>
-            <a><img src="img/logow.png"></a>
-        </header>
+
         <div class="content">
             <div class="pad"></div>
             <div class="index" >
                     <table>
                         <tr>
                             <td>
-                                <a href="parapente.php"><div class="center" style=" background-image: url(img/1top.jpeg);  ">    
+                                <a href="parapente.php"><div class="center" style=" background-image: url(img/parapente/1top.jpeg);  ">    
                                 </div></a>
                             </td>
                             <td>
-                                <div class="center" style=" background-image: url(img/jogging/imgjhead.jpg);  ">
+                                <a href="5jogging.php"><div class="center" style=" background-image: url(img/jogging/imgjhead.jpg);  ">
                                 </div>
+                                </a>
                             </td>
                             <td>
                                 <div class="center" style=" background-color:grey;  ">
