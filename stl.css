@@ -7,9 +7,7 @@ body
 {
     width: 750px;
     margin: 0 auto;
-    
 }
-
 .contenttop
 {
     width: 750px;
@@ -17,11 +15,29 @@ body
    
 }
 
+
+header
+{   
+    position:fixed;
+    left:-5px;
+    top:-5px;
+    color:white;
+    background-color: black;
+    width:110%;
+    height: 200px;
+}
+
+header img
+{
+    width: 250px;
+    margin: 25px;
+    vertical-align: middle;
+}
+
 h1
 {
    text-align: center;
     font-size: 40px;
-    z-index: 1;
 }
 
 h2
@@ -53,14 +69,8 @@ img
     width: 750px;
 }
 
+
 .top 
-{
-    width: 750px;
-    margin: 0 auto;
-
-}
-
-.contenttop .top
 {
     width: 750px;
     margin: 0 auto;
@@ -85,30 +95,12 @@ img
     background-size: cover;
 }
 
-.contenttop .left
-{
-    display: block;
-    background-position: left;
-    margin: 12px;
-    width: 232px; height: 400px;border-radius: 10px;
-    background-size: cover;
-}
-
 .center
 {
     display: block;
     background-position: center;
     margin: 12px;
     width: 232px; height: 232px;border-radius: 10px;
-    background-size: cover;
-}
-
-.contenttop .center
-{
-    display: block;
-    background-position: center;
-    margin: 12px;
-    width: 232px; height: 400px;border-radius: 10px;
     background-size: cover;
 }
 
@@ -121,11 +113,81 @@ img
     background-size: cover;
 }
 
+.pad
+{
+    height:200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.index 
+{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.index td
+{
+filter:brightness(0.3)
+}
+
+.index td:hover
+{
+filter:brightness(1)
+}
+
+.index .left
+{
+    display: block;
+    background-position: left;
+    margin: 10px;
+    width: 140px; height: 140px;border-radius: 10px;
+    background-size: cover;
+}
+
+.index .center
+{
+    display: block;
+    background-position: left;
+    margin: 10px;
+    width: 140px; height: 140px;border-radius: 10px;
+    background-size: cover;
+}
+.contenttop .top
+{
+    width: 750px;
+    margin: 0 auto;
+
+}
+.contenttop .left
+{
+    display: block;
+    background-position: left;
+    margin: 12px;
+    width: 232px; height: 400px;border-radius: 10px;
+    background-size: cover;
+}
+.contenttop .center
+{
+    display: block;
+    background-position: center;
+    margin: 12px;
+    width: 232px; height: 400px;border-radius: 10px;
+    background-size: cover;
+}
 .contenttop .right
 {
     display: block;
     background-position: right;
     margin: 12px;
     width: 232px; height: 400px;border-radius: 10px;
+    background-size: cover;
+}
+.index .right
+{
+    display: block;
+    background-position: left;
+    margin: 10px;
+    width: 140px; height: 140px;border-radius: 10px;
     background-size: cover;
 }
